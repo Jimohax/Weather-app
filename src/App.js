@@ -70,7 +70,7 @@ const search = event => {
  
         </div>
 
-          ) : ('error')}       
+          ) : ('')}       
              
       </main>
     </div>
