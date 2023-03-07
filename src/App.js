@@ -25,7 +25,7 @@ const search = event => {
     });
   
   }
-}
+} 
   
   const dateBuilder= (d) => {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -49,7 +49,7 @@ const search = event => {
             placeholder="search..."
             onChange={event => setQuery(event.target.value)}
             value={query}
-            onKeyDown={search}
+            onKeyDown={search} 
             />
         </div> 
         {(typeof weather.main != "undefined") ? (
